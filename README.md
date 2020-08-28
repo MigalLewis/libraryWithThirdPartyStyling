@@ -75,3 +75,12 @@ add imports to the module you would like to use and then add the angular compone
 #### re run test app
 
 `ng serve`
+
+## Making use of library in external project
+
+as a test I have published the library under `@omnipresent/third-party-lib@0.0.1` in order to use the library you should first install angular material on your project and install the library
+
+`ng add @angular/material`
+`npm install @omnipresent/third-party-lib@0.0.1`
+
+now you will be able to use the library with the styles from angular material
