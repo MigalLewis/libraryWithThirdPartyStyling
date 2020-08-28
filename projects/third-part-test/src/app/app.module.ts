@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ThirdPartyLibModule } from 'third-party-lib';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { ThirdPartyLibModule } from 'third-party-lib';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ThirdPartyLibModule
+    ThirdPartyLibModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
